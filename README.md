@@ -38,6 +38,6 @@ On overview page I will add a filter to sort data in list.
 
 Inside the folder run the following commands
 
-yarn install
+`yarn install`
 
-yarn run dev-server
+`yarn run dev-server`
