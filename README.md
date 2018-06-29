@@ -5,8 +5,8 @@ Create a webapp that allows for a simple analysis of crypto assets. The page sho
 * `/` - Market Overview
 * `/liquidity` -  Liquidity analysis page
 
-The app should fetch all the required data from the coinmarketcap.com `/ticker` API endpoint.
-By default /ticker endpoint returns top 100 coins. There should be an option to change it by using a select/dropdown with predefined values:
+The app should fetch all the required data from the [coinmarketcap.com](https://coinmarketcap.com/) `/ticker` API endpoint.
+By default `/ticker` endpoint returns top 100 coins. There should be an option to change it by using a select/dropdown with predefined values:
 
 * 10
 * 50
@@ -26,9 +26,9 @@ I have designed my app in a way that it should be scallable easily. I have divid
 * For styling I have used bootstrap css and wrote custom styling using scss.
 * For state management Redux, because we need to store user page size choice globally to use it in both pages. I used redux because it can easily mange state changes with component lifecycle methods we do not have to manually pass size as a prop to each page. Each page can get data from redux, and gets update according to state change.
 
-* Note
+### Note
 
-I did not save coins list redux store because I thought on both pages we should fetch fresh data from API so that user can analyze latest data.
+I did not save coins list in redux store because I thought on both pages we should fetch fresh data from API so that user can analyze latest data.
 
 ## Next
 
