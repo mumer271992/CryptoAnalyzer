@@ -64,18 +64,6 @@ const ListCoins = ({ data }) => {
     defaultPageSize: 10
   }
   
-  // return (
-  //   <div className="coins-list">
-  //     <Card>
-  //       <Table
-  //         pagination={pagination}
-  //         dataSource={data}
-  //         columns={columns}
-  //       >
-  //       </Table>
-  //     </Card>
-  //   </div>
-  // )
   return (
     <div className="coins-list">
       <div className="card">

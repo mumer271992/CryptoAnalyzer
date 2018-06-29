@@ -36,16 +36,6 @@ class Chart extends React.Component{
         plotOptions: chartPlotOptions
     }
     charthelper.drawChart('container', config, series)
-    // Highcharts.chart('container', {
-    //     chart: chartType,
-    //     title: chartTitle,
-    //     subtitle: chartSubTitle,
-    //     xAxis: chartXAxis,
-    //     yAxis: chartYAxis,
-    //     legend: chartLegend,
-    //     plotOptions: chartPlotOptions,
-    //     series: series
-    // });
   }
 
   buildSeries(data) {

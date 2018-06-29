@@ -43,7 +43,7 @@ class MarketOverview extends React.Component {
 		this.getLimitedData(limit);
 	}
 
-	getLimitedData = (limit) => {
+	getLimitedData(limit) {
 		datahelper.getData({ limit }).then((data) => {
 			this.setState((prevState, props) => ({
 				data: data

@@ -1,7 +1,13 @@
 import React, { PropTypes } from 'react';
 
-/* A presentational component which takes data list and display that data table,
-** it does not know how and where to retrive data.
+/* A presentational component which will display a table using provided props,
+** total column of table will be according to provided props 'columns'. columns structure as follow
+  columns:[{
+    title: '', This will be name of column
+    dataIndex: '',
+    key: '' This is key of dataobject to show in this column
+  }]
+
 */
 
 const propTypes = {
