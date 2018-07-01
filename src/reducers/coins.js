@@ -20,6 +20,16 @@ export default (state = defaultState, action) => {
         ...state,
         pageSize: action.size
       }
+    case 'SAVE_LIST_AND_SIZE':
+      return {
+        ...state,
+        pageSize: action.size,
+        list: action.list
+      }
+    case 'REQUEST_DATA_FROM_API':
+      return {
+        ...state
+      }
     default:
       return state;
   }
